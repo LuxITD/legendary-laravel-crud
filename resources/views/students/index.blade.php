@@ -50,7 +50,7 @@
 
 <Script>
     function confirmDelete(id) {
-        alertify.confirm("This is a confirm dialog.", function (e) {
+        alertify.confirm("Do you want delete.", function (e) {
             if(e) {
                 let form = document.createElement('form')
                 form.method = 'POST',
